@@ -1,0 +1,10 @@
+{
+  "jsp_id": "JSP-000089",
+  "catalog_url": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/README.md",
+  "original_question_en": "Is there a density-zero set of positive integers such that every sufficiently dense graph has a cycle with length in that set?",
+  "required_theorems": [
+    "jsp_000089_main"
+  ],
+  "notes": "Catalogue statement transcribed from awards/problems/catalog-0001-0100.md#JSP-000089. Proved with 0 sorry; prize_ready=true. Full Liu-Montgomery average-degree theorem is the documented remaining gap (see discovery/JSP-000089/policy.json blockers).",
+  "lean_statement": "theorem jsp_000089_main : not (exists L : Set N, (forall n, 0 < n -> Even n -> n in L) and zeroDensity L)"
+}
